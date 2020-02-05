@@ -20,6 +20,11 @@ namespace TV2_NFC.Controllers
             return View();
         }
 
+        public IActionResult Læringsmål()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
